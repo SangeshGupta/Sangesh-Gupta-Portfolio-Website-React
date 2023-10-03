@@ -1,0 +1,176 @@
+.navbar-brand img {
+height: 65px;
+width: 160px;
+border-color: black;
+border-radius: 100px;
+}
+.custom-shape-divider-top-1695273658 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1695273658 svg {
+  position: relative;
+  display: block;
+  width: calc(157% + 1.3px);
+  height: 152px;
+}
+
+.custom-shape-divider-top-1695273658 .shape-fill {
+  fill: red;
+}
+
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color:black; /* Replace with your desired background color */
+  z-index: 100; /* Ensure the navigation bar appears above other content */
+}
+.navbar a{
+  color: #fff;
+}
+.navbar-toggler-icon{
+  color: #fff;
+  background-color: #fff;
+}
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #060807;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.copyright p{
+  color: #fff;
+}
+
+.header-text{
+  margin-top: 4%;
+  font-size: 30px;
+  width: 100%;
+  height: 100%;
+
+}
+
+.homeimage{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.row p{
+  font-style: italic;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.skill ul li{
+  font-size: medium;
+}
+
+.img-fluid {
+  border-radius: 10%;
+}
+
+.contactus {
+ text-decoration-color: #fff;
+ color: #fff;
+ font-style: italic;
+}
+
+.accordion-item ul{
+  color: red;
+  background-color: #060807;
+  font-style: oblique;
+}
+
+.accordion{
+  background-color: black;
+}
+.headers{
+  font-size:20px;
+  color:red;
+  background-color: #060807;
+}
+
+.list-unstyled ul{
+color: red;
+}
+
+.imagess{
+  color: #fff;
+  display: -moz-grid;
+  background-image: url('../public/images/homeb.png');
+  border-radius: 10%;
+  height: 600px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+.developer-title {
+  font-size: 70px;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.developer-name {
+  font-size: 50px;
+  font-weight: bolder;
+  font-style: oblique;
+  text-shadow: 2px 2px 4px rgba(83, 25, 220, 0.2); 
+}
+
+.name-highlight {
+  color: red;
+}
+
+.developer-role {
+  font-size: 50px;
+}
+
+
+
+
+.custom-shape-divider-bottom-1695280019 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1695280019 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1695280019 .shape-fill {
+  fill: red;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-bottom-1695280019 svg {
+      width: calc(167% + 1.3px);
+      height: 53px;
+  }
+}
